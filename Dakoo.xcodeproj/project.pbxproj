@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1830F7C929BB014700502144 /* DakooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830F7C829BB014700502144 /* DakooApp.swift */; };
+		1830F7CB29BB014700502144 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830F7CA29BB014700502144 /* ContentView.swift */; };
+		1830F7CD29BB014900502144 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1830F7CC29BB014900502144 /* Assets.xcassets */; };
+		1830F7D029BB014900502144 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1830F7CF29BB014900502144 /* Preview Assets.xcassets */; };
+		1830F7DA29BB014900502144 /* DakooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830F7D929BB014900502144 /* DakooTests.swift */; };
+		1830F7E429BB014900502144 /* DakooUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830F7E329BB014900502144 /* DakooUITests.swift */; };
+		1830F7E629BB014900502144 /* DakooUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830F7E529BB014900502144 /* DakooUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1830F7D629BB014900502144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1830F7BD29BB014700502144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1830F7C429BB014700502144;
+			remoteInfo = Dakoo;
+		};
+		1830F7E029BB014900502144 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1830F7BD29BB014700502144 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1830F7C429BB014700502144;
+			remoteInfo = Dakoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1830F7C529BB014700502144 /* Dakoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dakoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1830F7C829BB014700502144 /* DakooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DakooApp.swift; sourceTree = "<group>"; };
+		1830F7CA29BB014700502144 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1830F7CC29BB014900502144 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1830F7CF29BB014900502144 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1830F7D529BB014900502144 /* DakooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DakooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1830F7D929BB014900502144 /* DakooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DakooTests.swift; sourceTree = "<group>"; };
+		1830F7DF29BB014900502144 /* DakooUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DakooUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1830F7E329BB014900502144 /* DakooUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DakooUITests.swift; sourceTree = "<group>"; };
+		1830F7E529BB014900502144 /* DakooUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DakooUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1830F7C229BB014700502144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1830F7D229BB014900502144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1830F7DC29BB014900502144 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1830F7BC29BB014700502144 = {
+			isa = PBXGroup;
+			children = (
+				1830F7C729BB014700502144 /* Dakoo */,
+				1830F7D829BB014900502144 /* DakooTests */,
+				1830F7E229BB014900502144 /* DakooUITests */,
+				1830F7C629BB014700502144 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1830F7C629BB014700502144 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1830F7C529BB014700502144 /* Dakoo.app */,
+				1830F7D529BB014900502144 /* DakooTests.xctest */,
+				1830F7DF29BB014900502144 /* DakooUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1830F7C729BB014700502144 /* Dakoo */ = {
+			isa = PBXGroup;
+			children = (
+				1830F7C829BB014700502144 /* DakooApp.swift */,
+				1830F7CA29BB014700502144 /* ContentView.swift */,
+				1830F7CC29BB014900502144 /* Assets.xcassets */,
+				1830F7CE29BB014900502144 /* Preview Content */,
+			);
+			path = Dakoo;
+			sourceTree = "<group>";
+		};
+		1830F7CE29BB014900502144 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1830F7CF29BB014900502144 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1830F7D829BB014900502144 /* DakooTests */ = {
+			isa = PBXGroup;
+			children = (
+				1830F7D929BB014900502144 /* DakooTests.swift */,
+			);
+			path = DakooTests;
+			sourceTree = "<group>";
+		};
+		1830F7E229BB014900502144 /* DakooUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1830F7E329BB014900502144 /* DakooUITests.swift */,
+				1830F7E529BB014900502144 /* DakooUITestsLaunchTests.swift */,
+			);
+			path = DakooUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1830F7C429BB014700502144 /* Dakoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1830F7E929BB014900502144 /* Build configuration list for PBXNativeTarget "Dakoo" */;
+			buildPhases = (
+				1830F7C129BB014700502144 /* Sources */,
+				1830F7C229BB014700502144 /* Frameworks */,
+				1830F7C329BB014700502144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dakoo;
+			productName = Dakoo;
+			productReference = 1830F7C529BB014700502144 /* Dakoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1830F7D429BB014900502144 /* DakooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1830F7EC29BB014900502144 /* Build configuration list for PBXNativeTarget "DakooTests" */;
+			buildPhases = (
+				1830F7D129BB014900502144 /* Sources */,
+				1830F7D229BB014900502144 /* Frameworks */,
+				1830F7D329BB014900502144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1830F7D729BB014900502144 /* PBXTargetDependency */,
+			);
+			name = DakooTests;
+			productName = DakooTests;
+			productReference = 1830F7D529BB014900502144 /* DakooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1830F7DE29BB014900502144 /* DakooUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1830F7EF29BB014900502144 /* Build configuration list for PBXNativeTarget "DakooUITests" */;
+			buildPhases = (
+				1830F7DB29BB014900502144 /* Sources */,
+				1830F7DC29BB014900502144 /* Frameworks */,
+				1830F7DD29BB014900502144 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1830F7E129BB014900502144 /* PBXTargetDependency */,
+			);
+			name = DakooUITests;
+			productName = DakooUITests;
+			productReference = 1830F7DF29BB014900502144 /* DakooUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1830F7BD29BB014700502144 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1830F7C429BB014700502144 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					1830F7D429BB014900502144 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 1830F7C429BB014700502144;
+					};
+					1830F7DE29BB014900502144 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 1830F7C429BB014700502144;
+					};
+				};
+			};
+			buildConfigurationList = 1830F7C029BB014700502144 /* Build configuration list for PBXProject "Dakoo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1830F7BC29BB014700502144;
+			productRefGroup = 1830F7C629BB014700502144 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1830F7C429BB014700502144 /* Dakoo */,
+				1830F7D429BB014900502144 /* DakooTests */,
+				1830F7DE29BB014900502144 /* DakooUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1830F7C329BB014700502144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1830F7D029BB014900502144 /* Preview Assets.xcassets in Resources */,
+				1830F7CD29BB014900502144 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1830F7D329BB014900502144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1830F7DD29BB014900502144 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1830F7C129BB014700502144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1830F7CB29BB014700502144 /* ContentView.swift in Sources */,
+				1830F7C929BB014700502144 /* DakooApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1830F7D129BB014900502144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1830F7DA29BB014900502144 /* DakooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1830F7DB29BB014900502144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1830F7E429BB014900502144 /* DakooUITests.swift in Sources */,
+				1830F7E629BB014900502144 /* DakooUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1830F7D729BB014900502144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1830F7C429BB014700502144 /* Dakoo */;
+			targetProxy = 1830F7D629BB014900502144 /* PBXContainerItemProxy */;
+		};
+		1830F7E129BB014900502144 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1830F7C429BB014700502144 /* Dakoo */;
+			targetProxy = 1830F7E029BB014900502144 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1830F7E729BB014900502144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1830F7E829BB014900502144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1830F7EA29BB014900502144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dakoo/Preview Content\"";
+				DEVELOPMENT_TEAM = 292SWP99WP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delivery.Dakoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1830F7EB29BB014900502144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Dakoo/Preview Content\"";
+				DEVELOPMENT_TEAM = 292SWP99WP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delivery.Dakoo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1830F7ED29BB014900502144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 292SWP99WP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delivery.DakooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dakoo.app/Dakoo";
+			};
+			name = Debug;
+		};
+		1830F7EE29BB014900502144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 292SWP99WP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delivery.DakooTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Dakoo.app/Dakoo";
+			};
+			name = Release;
+		};
+		1830F7F029BB014900502144 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 292SWP99WP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delivery.DakooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dakoo;
+			};
+			name = Debug;
+		};
+		1830F7F129BB014900502144 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 292SWP99WP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.delivery.DakooUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Dakoo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1830F7C029BB014700502144 /* Build configuration list for PBXProject "Dakoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1830F7E729BB014900502144 /* Debug */,
+				1830F7E829BB014900502144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1830F7E929BB014900502144 /* Build configuration list for PBXNativeTarget "Dakoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1830F7EA29BB014900502144 /* Debug */,
+				1830F7EB29BB014900502144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1830F7EC29BB014900502144 /* Build configuration list for PBXNativeTarget "DakooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1830F7ED29BB014900502144 /* Debug */,
+				1830F7EE29BB014900502144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1830F7EF29BB014900502144 /* Build configuration list for PBXNativeTarget "DakooUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1830F7F029BB014900502144 /* Debug */,
+				1830F7F129BB014900502144 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1830F7BD29BB014700502144 /* Project object */;
+}
